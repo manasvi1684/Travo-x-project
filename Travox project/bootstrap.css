@@ -1,0 +1,262 @@
+.c-item {
+    height: 600px;
+}
+
+.c-img {
+    height: 600px;
+    object-fit: fill;
+    filter: brightness(0.7);
+}
+
+.banner {
+    background-color: #0b1c44;
+
+}
+
+.navbar {
+    padding-top: unset !important;
+    padding-bottom: unset !important;
+}
+
+.navbar-brand {
+    font-weight: bolder;
+    color: white !important;
+    font-style: oblique;
+    margin-left: 100px;
+    font-size: 30px !important;
+}
+
+.nav-link {
+    color: white !important;
+
+}
+
+a.nav-link {
+    margin-right: 30px;
+    font-size: 20px;
+}
+
+.nav-link:hover {
+    /* color: rgb(255, 0, 0) !important; */
+    text-decoration: underline;
+
+}
+
+/* .nav-link button{
+    margin-left: 200px;
+    
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 20px;
+} */
+.navbar-collapse {
+    margin-right: 100px;
+    flex-grow: inherit !important;
+}
+
+.heading h1 {
+    text-align: center;
+    font-weight: bold;
+    font-style: initial;
+    margin: 30px;
+    
+}
+
+.packages-card{
+    display: flex;
+    flex-wrap: wrap;
+    gap:50px;
+    height: auto;
+}
+
+.p-card{
+    width: 30%;
+}
+
+.newtext span {
+    color: rgb(212, 60, 22);
+}
+
+.newtext h3 {
+    margin-bottom: 20px;
+
+}
+
+.newtext button {
+    margin-top: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    box-shadow: 10px 10px 10px rgb(0, 0, 0, 0.15);
+    border: none;
+    background-color: grey;
+}
+
+.newtext button:hover {
+    background-color: #24262b;
+    color: white;
+    box-shadow: 10px 10px 10px(0, 0, 0, 0.15);
+}
+
+.card img {
+   
+    height: 243px;
+}
+
+.card {
+    /* margin-left: 10px; */
+    border-radius: 10px;
+}
+
+.card:hover {
+    transform: scale(1.1);
+    transition: 0.2;
+   
+}
+
+.footer {
+    background-color: #0b1c44;
+    margin-top: 30px;
+
+}
+
+.acc-btn:hover {
+    background-color: #0b1c44;
+    color: white;
+}
+
+
+
+.footer p {
+    padding-top: 50px;
+    text-align: center;
+    color: white;
+
+}
+
+.c-item span {
+    color: rgb(202, 25, 25);
+    font-style: oblique;
+}
+
+.login-form h1 {
+    font-size: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: underline;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
+
+.form-label {
+    font-size: 20px;
+}
+
+.login-form input {
+    padding: 15px 15px !important;
+    padding-right: 5px;
+    font-size: 20px;
+}
+
+.login-form {
+    background-color: rgb(210, 210, 233);
+}
+
+.success-button {
+    
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+}
+    .success-button p {
+        text-align: center;
+    }
+
+
+
+.table td:hover {
+    background-color: rgb(13, 82, 78);
+    color: white;
+
+}
+
+.table {
+    box-shadow: 15px 15px 15px rgb(0, 0, 0, 0.20);
+}
+
+.extra-button button {
+    border-radius: 5px;
+    margin: 20px;
+    padding: 15px;
+    margin-bottom: 25px;
+    font-weight: bold;
+    border: none;
+    box-shadow: 15px 15px 15px rgb(0, 0, 0, 0.20);
+
+
+}
+
+.new-card-img img {
+    /* width: max-content;
+    object-fit: fill; */
+    width: auto  !important;
+}
+
+.extra-button button:hover {
+    box-shadow: 15px 15px 15px rgb(0, 0, 0, 0.20);
+    transform: scale(1.1);
+    color: white;
+    background-color: rgba(20, 20, 73, 0.61);
+
+}
+
+.extra-button button span {
+    color: rgb(226, 45, 0);
+}
+
+.extra-button button span:hover {
+    color: white;
+}
+
+div.card.mb-3 {
+    width: fit-content;
+    max-width: max-content;
+}
+
+span.navbar-toggler-icon {
+    background-color: antiquewhite;
+}
+
+button.navbar-toggler {
+    background: antiquewhite !important;
+}
+
+.custom-table {
+    display: table;
+}
+
+.mob {
+    display: none;
+}
+
+.dim {
+    display: block;
+}
+
+.mob1 {
+    display: none;
+}
+
+.dim1 {
+    display: block;
+}
+/* .carousel-inner:hover{
+    opacity: 1 !important;    
+}
+ */
+
